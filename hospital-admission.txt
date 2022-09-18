@@ -1,1 +1,12 @@
+START
 
+READ AND WRITE "pasien" with string
+
+IF "pasien" == "pasien baru"
+    PRINT "Menambahkan Identitas Pasien"
+ELSE IF "pasien" == "pasien lama"
+    PRINT "Menampilkan Identitas Pasien"
+ELSE 
+    PRINT "ERROR"
+
+END
