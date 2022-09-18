@@ -3,13 +3,14 @@ START
 READ AND WRITE "pasien" with string
 
 IF "pasien" == "pasien baru"
-    PRINT "Menambahkan Identitas Pasien"
-    PRINT "Menampilkan Identitas Pasien"
-    PRINT "Print Identitas Pasien"
+    INPUT "Identitas Pasien"
+    PRINT "Identitas Pasien"
+    
 ELSE IF "pasien" == "pasien lama"
-    PRINT "Menampilkan Identitas Pasien"
-    PRINT "Print Identitas Pasien"
+    PRINT "Identitas Pasien"
+
 ELSE 
     PRINT "ERROR"
-    
+
+PRINT "Identitas Pasien"
 END
