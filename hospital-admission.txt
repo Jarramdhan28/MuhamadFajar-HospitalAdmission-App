@@ -8,9 +8,8 @@ IF "pasien" == "pasien baru"
     
 ELSE IF "pasien" == "pasien lama"
     PRINT "Identitas Pasien"
-
 ELSE 
     PRINT "ERROR"
 
-PRINT "Identitas Pasien"
+PRINT "Cetak Identitas Pasien"
 END
