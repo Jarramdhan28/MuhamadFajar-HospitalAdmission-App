@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="XSR3O4sb_BBbq0xcz3ux" name="Page-1">
-        <mxGraphModel dx="783" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1488" dy="1170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -24,7 +24,7 @@
                         <mxPoint x="515" y="570" as="targetPoint"/>
                         <Array as="points">
                             <mxPoint x="610" y="320"/>
-                            <mxPoint x="610" y="570"/>
+                            <mxPoint x="610" y="690"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -41,27 +41,29 @@
                         <mxPoint x="424.9999999999998" y="530" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="10" value="Menambahkan Data Identitas Pasien" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="10" value="Input Data Identitas Pasien" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="375" y="420" width="100" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="11" target="15">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="&#10;&#10;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;Menampilkan Identitas Pasien&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="375" y="530" width="100" height="80" as="geometry"/>
+                    <mxGeometry x="375.5" y="650" width="100" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="375" y="760" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="375.5" y="880" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.483;exitY=0.871;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="15" target="13">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="425" y="712"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="22" value="" style="edgeStyle=none;html=1;exitX=0.509;exitY=0.879;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="15" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="Cetak Identitas Pasien" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
-                    <mxGeometry x="375" y="660" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="375" y="770" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="name&lt;br&gt;jenis kelamin&lt;br&gt;umur&lt;br&gt;alamat&lt;br&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="363" y="530" width="125" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
